@@ -24,30 +24,26 @@ The **Mail Header Analyzer (MHA)** is a tool that helps in decoding and analyzin
    - Open the suspicious email in your email client (e.g., Gmail, Outlook).  
    - Select the option to view the full message or email header.  
    - Copy the raw header content.  
-![](<Output Screenshot\Exp4\Screenshot 2025-10-27 083932.png>)
-
+![alt text](<Output Screenshot/Exp4/Screenshot 2025-10-27 083932.png>)
      
 
 **Access Mail Header Analyzer (MHA)**  
    - Open the Mail Header Analyzer tool (e.g., https://mha.azurewebsites.net/).
    
    - Paste the copied email header into the input box.  
-![](<Output Screenshot\Exp4\Screenshot 2025-10-27 084026.png>)  
-
+![alt text](<Output Screenshot/Exp4/Screenshot 2025-10-27 084026.png>)
 **Analyze the Header**  
    - Click **Analyze** to process the email header.  
    - The tool will display information such as:  
      - Source IP address of the sender  
      - Mail servers that relayed the message  
      - Authentication checks (SPF, DKIM, DMARC)  
-![](<Output Screenshot\Exp4\Screenshot 2025-10-27 084047.png>)
-
+![alt text](<Output Screenshot/Exp4/Screenshot 2025-10-27 084047.png>)
 
 **Check Authentication Results**  
    - Look for SPF, DKIM, and DMARC status.  
    - If any of them fail, it could be a sign of spoofing.  
- ![](<Output Screenshot\Exp4\Screenshot 2025-10-27 084109.png>) 
-
+![alt text](<Output Screenshot/Exp4/Screenshot 2025-10-27 084109.png>)
 **Inspect Mail Path**  
    - Review the route taken by the email across multiple servers.  
    - Compare the originating IP and domain with the claimed sender’s address.  
