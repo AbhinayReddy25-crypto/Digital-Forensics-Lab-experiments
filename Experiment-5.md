@@ -18,7 +18,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Wait for the application to initialize
    
    
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 193917.png>)
+![alt text](<Output Screenshot/Exp5/Screenshot 2025-10-23 193917.png>)
    
 
 2. **Create New Case**
@@ -26,8 +26,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Enter case name, base directory for case storage
    - Fill in optional case details (examiner name, case number, etc.)
    
-    ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 193953.jpg>)
- 
+    ![alt text](<Output Screenshot/Exp5/Screenshot 2025-10-23 193953.jpg>)
 
 3. **Configure Case Database**
    - Select the database type (Single-user or Multi-user)
@@ -40,8 +39,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Select the type of data source (disk image, local drive, logical files)
    - Browse and select the evidence file
    
-   
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194311.png>)
+    ![alt text](<Output Screenshot/Exp5/Screenshot 2025-10-23 194006.png>)
   
 
 5. **Configure Ingest Modules**
@@ -55,17 +53,15 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Configure settings for selected modules
    
    
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194505.png>)
-   
+   ![](<Output Screenshot/Exp5/Screenshot 2025-10-23 194505.png>)
 
 6. **Start Analysis**
    - Review selected options
    - Click "Finish" to begin processing
    - Monitor ingest progress
    
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194512.png>)
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194545.png>)
-
+   ![alt text](<Output Screenshot/Exp5/Screenshot 2025-10-23 194512.png>)
+  ![alt text](<Output Screenshot/Exp5/Screenshot 2025-10-23 194545.png>)
 
 ## Result
 After completing this experiment, you should be able to:
@@ -76,4 +72,4 @@ After completing this experiment, you should be able to:
 
 The imported evidence will be ready for detailed forensic analysis using Autopsy's various tools and features. The case structure is now set up to maintain proper chain of custody and documentation of the investigation process.
 
-![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 210153.png>)
+![alt text](<Output Screenshot/Exp5/Screenshot 2025-10-23 210153.png>)
