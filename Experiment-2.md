@@ -32,41 +32,41 @@ In this experiment, we use TestDisk to identify and restore deleted or damaged f
 
 **Launch TestDisk**  
    - Open the TestDisk tool (from command line or executable).  
-   ![alt text](<Output Screenshot/Exp2/Screenshot (58).png>)
+   ![alt text](<Output Screenshot\Exp2\Screenshot 2025-10-27 120350.png>)
 
    - Run it with administrative privileges for full access.
 
 
 **Select Create/Append Log**  
    - On startup, choose **Create** to generate a log file for documentation.  
-    ![alt text](<Output Screenshot/Exp2/Screenshot (59).png>)
+    ![alt text](<Output Screenshot\Exp2\Screenshot 2025-10-27 120600.png>)
 
 
 **Choose the Storage Device**  
    - TestDisk lists all available storage devices.
-    ![alt text](<Output Screenshot/Exp2/Screenshot (59).png>)
+    ![alt text](<Output Screenshot\Exp2\Screenshot 2025-10-27 120631.png>)
 
    - Use the arrow keys to select the target device.  
 
 
 **Select Partition Table Type**  
    - TestDisk detects the partition table type (e.g., Intel/MBR, EFI GPT).
-    ![alt text](<Output Screenshot/Exp2/Screenshot (60).png>)
+    ![alt text](<Output Screenshot\Exp2\Screenshot 2025-10-27 120701.png>)
 
    - Confirm the suggestion by pressing **Enter**. 
 
 
 **Analyze the Disk**  
    - Select **Analyse** → Quick Search to find lost partitions.  
-   ![alt text](<Output Screenshot/Exp2/Screenshot (61).png>)
+   ![alt text](<Output Screenshot\Exp2\Screenshot 2025-10-27 120722.png>)
 
    - Use **Deeper Search** if needed. 
-    ![alt text](<Output Screenshot/Exp2/Screenshot (65).png>)
+    ![alt text](<Output Screenshot\Exp2\Screenshot 2025-10-27 120832.png>)
  
 
 **Access Advanced Options**  
    - Go to **Advanced → File System Utilities**. 
-    ![alt text](<Output Screenshot/Exp2/Screenshot (66).png>)
+    ![alt text](<Output Screenshot\Exp2\Screenshot 2025-10-27 120903.png>)
 
    - Select the partition where files were deleted.
 
@@ -75,10 +75,10 @@ In this experiment, we use TestDisk to identify and restore deleted or damaged f
 
 **Recover Deleted Files**  
    - Deleted files are shown in red. 
-    ![alt text](<Output Screenshot/Exp2/Screenshot (71).png>)
+    ![alt text](<Output Screenshot\Exp2\Screenshot 2025-10-27 121259.png>)
 
    - Highlight a file and press **C** (copy) to recover. 
-    ![alt text](<Output Screenshot/Exp2/Screenshot (72).png>)
+    ![alt text](<Output Screenshot\Exp2\Screenshot 2025-10-27 121334.png>)
 
    - Choose a **different drive** as the destination to avoid overwriting data.  
  

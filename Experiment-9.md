@@ -117,7 +117,8 @@ The experiment successfully demonstrated:
    - Types of suspicious activities detected
    - Common characteristics of malicious processes
    - System resource impact
-
+![alt text](<Screenshot 2025-10-27 144400.png>)  
+![alt text](<Screenshot 2025-10-27 144447.png>) ![alt text](<Screenshot 2025-10-27 144814.png>) ![alt text](<Screenshot 2025-10-27 145208.png>) ![alt text](<Screenshot 2025-10-27 145244.png>) ![alt text](<Screenshot 2025-10-27 145418.png>) ![alt text](<Screenshot 2025-10-27 145523.png>) ![alt text](<Screenshot 2025-10-27 145650.png>) ![alt text](<Screenshot 2025-10-27 145817.png>)
 ## Analysis Summary
 
 ### 1. Process Characteristics

@@ -1,5 +1,5 @@
 # Experiment - 1
-# Create a forensic image of a storage device's using FTK Imager.
+#  FTK Imager
 ---
 
 ## Aim
@@ -11,8 +11,6 @@ To create a forensically sound bit-stream image of a storage device (e.g., USB d
 Disk imaging is the process of creating an exact, sector-by-sector copy of a storage device. This copy, known as a forensic image, is crucial for digital forensics as it preserves the original evidence in an unaltered state. This allows an investigator to perform analysis on the image without any risk of modifying the original source evidence.
 
 FTK Imager is a popular and widely used forensics tool developed by AccessData. It provides a user-friendly interface to create forensic images, verify their integrity using hash values (like MD5, SHA-1), and perform preliminary analysis.
-
-This experiment involves connecting a source drive (via a write-blocker, if available), using FTK Imager to create a forensic image file, and generating a hash value to prove the image is an exact copy of the original.
 
 ---
 
@@ -106,7 +104,6 @@ This experiment involves connecting a source drive (via a write-blocker, if avai
  - After the process is finished, FTK Imager generates a log file containing all details (case info, hash values, acquisition time, etc.).
 
  - Save this log file along with the image, since it acts as proof of authenticity and integrity.
-![Fig-9](<Output Screenshot/Exp1/Screenshot 2025-08-31 174812.png>)
 
 ---
 

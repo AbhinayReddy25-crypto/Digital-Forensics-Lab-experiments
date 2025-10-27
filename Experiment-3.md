@@ -24,7 +24,7 @@ This experiment demonstrates how to use Wireshark to capture network traffic, fi
 
 **Launch Wireshark**  
    - Open Wireshark with administrative privileges.
- ![alt text](<Output Screenshot/Exp3/Screenshot (73).png>) 
+ ![alt text](<Output Screenshot\Exp3\Screenshot 2025-10-27 090503.png>) 
 
    - The home screen displays all available network interfaces. 
 

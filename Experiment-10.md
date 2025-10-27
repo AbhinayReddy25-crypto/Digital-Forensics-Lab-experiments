@@ -28,7 +28,7 @@ Ghidra is a powerful software reverse engineering (SRE) framework developed by N
 3. Configure isolated analysis environment
 4. Verify Ghidra launches successfully
 
-[Insert Screenshot: Place screenshot of Ghidra's initial launch screen]
+![alt text](<Output Screenshot/Exp10/Screenshot 2025-10-27 175120.png>)
 
 ### 2. Project Creation
 1. Create new project:
@@ -36,15 +36,14 @@ Ghidra is a powerful software reverse engineering (SRE) framework developed by N
    - Select Non-Shared Project
    - Choose project location
    
-[Insert Screenshot: Place screenshot of project creation]
+![](<Output Screenshot/Exp10/Screenshot 2025-10-27 175305.png>)
 
 2. Import malware sample:
    - File → Import File
    - Select malware sample
    - Configure import options
    
-[Insert Screenshot: Place screenshot showing import process]
-
+![alt text](<Output Screenshot/Exp10/Screenshot 2025-10-27 182004.png>)
 ### 3. Initial Analysis
 1. Double-click imported file to analyze
 2. Wait for auto-analysis to complete
@@ -53,7 +52,7 @@ Ghidra is a powerful software reverse engineering (SRE) framework developed by N
    - Strings detected
    - Entry points located
    
-[Insert Screenshot: Place screenshot of auto-analysis results]
+![](<Output Screenshot/Exp10/Screenshot 2025-10-27 182835.png>)
 
 ### 4. Code Analysis
 1. Navigate through Program Trees:
@@ -61,29 +60,26 @@ Ghidra is a powerful software reverse engineering (SRE) framework developed by N
    - Labels
    - Data Types
    
-[Insert Screenshot: Place screenshot of program structure]
-
+![alt text](<Output Screenshot/Exp10/Screenshot 2025-10-27 182919.png>)
 2. Examine Decompiled Code:
    - Use Decompiler window
    - Analyze function logic
    - Identify suspicious operations
    
-[Insert Screenshot: Place screenshot of decompiled code view]
-
+![alt text](<Output Screenshot/Exp10/Screenshot 2025-10-27 183054.png>)
 ### 5. Function Analysis
 1. Identify main functions:
    - Entry points
    - Important API calls
    - String references
    
-[Insert Screenshot: Place screenshot showing important functions]
 
 2. Analyze suspicious functions:
    - Network operations
    - File system operations
    - Registry modifications
    
-[Insert Screenshot: Place screenshot of suspicious function analysis]
+![alt text](<Output Screenshot/Exp10/Screenshot 2025-10-27 183315.png>)
 
 ### 6. String Analysis
 1. Examine string references:
@@ -92,14 +88,12 @@ Ghidra is a powerful software reverse engineering (SRE) framework developed by N
    - Registry keys
    - Command strings
    
-[Insert Screenshot: Place screenshot of string analysis]
 
 ### 7. Cross-Reference Analysis
 1. Track function calls:
    - Who calls this function
    - What this function calls
    
-[Insert Screenshot: Place screenshot of cross-references]
 
 ### 8. Memory Analysis
 1. Review memory layout:
@@ -107,8 +101,7 @@ Ghidra is a powerful software reverse engineering (SRE) framework developed by N
    - Segments
    - Permissions
    
-[Insert Screenshot: Place screenshot of memory layout]
-
+![alt text](<Output Screenshot/Exp10/Screenshot 2025-10-27 185152.png>)
 ## Results
 The experiment successfully demonstrated:
 

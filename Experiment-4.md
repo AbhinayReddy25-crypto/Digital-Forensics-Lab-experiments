@@ -24,15 +24,15 @@ The **Mail Header Analyzer (MHA)** is a tool that helps in decoding and analyzin
    - Open the suspicious email in your email client (e.g., Gmail, Outlook).  
    - Select the option to view the full message or email header.  
    - Copy the raw header content.  
-![alt text](<Output Screenshot/Exp4/Screenshot 2025-09-01 000055.png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (81).png>)
+![alt text](<Output Screenshot\Exp4\Screenshot 2025-10-27 083932.png>)
+
      
 
 **Access Mail Header Analyzer (MHA)**  
    - Open the Mail Header Analyzer tool (e.g., https://mha.azurewebsites.net/).
-![alt text](<Output Screenshot/Exp4/Screenshot (83).png>)     
+   
    - Paste the copied email header into the input box.  
-![alt text](<Output Screenshot/Exp4/Screenshot (84).png>)  
+![alt text](<Output Screenshot\Exp4\Screenshot 2025-10-27 084026.png>)  
 
 **Analyze the Header**  
    - Click **Analyze** to process the email header.  
@@ -40,30 +40,26 @@ The **Mail Header Analyzer (MHA)** is a tool that helps in decoding and analyzin
      - Source IP address of the sender  
      - Mail servers that relayed the message  
      - Authentication checks (SPF, DKIM, DMARC)  
-![alt text](<Output Screenshot/Exp4/Screenshot (85).png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (86).png>)
-  
+![alt text](<Output Screenshot\Exp4\Screenshot 2025-10-27 084047.png>)
+
 
 **Check Authentication Results**  
    - Look for SPF, DKIM, and DMARC status.  
    - If any of them fail, it could be a sign of spoofing.  
- ![alt text](<Output Screenshot/Exp4/Screenshot (81.2).png>) 
+ ![alt text](<Output Screenshot\Exp4\Screenshot 2025-10-27 084109.png>) 
 
 **Inspect Mail Path**  
    - Review the route taken by the email across multiple servers.  
    - Compare the originating IP and domain with the claimed sender’s address.  
-![alt text](<Output Screenshot/Exp4/Screenshot (84.2).png>)  
-
+!
 **Detect Spoofing Indicators**  
    - Identify inconsistencies such as:  
      - Mismatched sender domain and IP address  
      - Failed SPF/DKIM/DMARC checks  
      - Abnormal relay servers not belonging to the claimed domain 
 **Example of Malicious email header with abnormal delay**
-![alt text](<Output Screenshot/Exp4/Screenshot (86).png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (87).png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (88).png>)
-![alt text](<Output Screenshot/Exp4/Screenshot (89).png>)
+
+![alt text](<Output Screenshot/Exp4/Screenshot 2025-10-27 084122.png>)
 ---
 
 ## Result  
