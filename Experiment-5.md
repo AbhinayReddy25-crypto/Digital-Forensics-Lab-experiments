@@ -17,7 +17,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Open Autopsy digital forensics tool
    - Wait for the application to initialize
    
-   [Screenshot placeholder: Autopsy welcome screen]
+   
    ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 193917.png>)
    
 
@@ -26,8 +26,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Enter case name, base directory for case storage
    - Fill in optional case details (examiner name, case number, etc.)
    
-   [Screenshot placeholder: New case creation window]
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 193953.jpg>)
+    ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 193953.jpg>)
  
 
 3. **Configure Case Database**
@@ -41,9 +40,9 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Select the type of data source (disk image, local drive, logical files)
    - Browse and select the evidence file
    
-   [Screenshot placeholder: Add data source window]
+   
    ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194311.png>)
- 
+  
 
 5. **Configure Ingest Modules**
    - Select relevant ingest modules for analysis
@@ -55,7 +54,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
      - etc.
    - Configure settings for selected modules
    
-   [Screenshot placeholder: Ingest modules configuration]
+   
    ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194505.png>)
    
 
@@ -64,7 +63,6 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Click "Finish" to begin processing
    - Monitor ingest progress
    
-   [Screenshot placeholder: Analysis progress]
    ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194512.png>)
    ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194545.png>)
 
