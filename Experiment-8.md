@@ -149,4 +149,3 @@ Steg-Expose proved to be an effective tool for detecting steganographic content 
 3. Provide detailed statistical analysis of suspected steganographic content
 4. Generate comprehensive reports for further investigation
 
-The tool showed particular strength in [specific area] while having some limitations in [specific area]. For forensic investigations, it serves as a valuable initial screening tool for detecting hidden data in images.

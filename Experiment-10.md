@@ -188,12 +188,4 @@ Best Practices Identified:
 3. Safe handling procedures
 4. Indicator extraction
 
-[Note: Please add actual screenshots of your experiment execution in the designated places marked with "Insert Screenshot" tags. Also, replace all placeholder values in square brackets with actual experimental data. Remember to handle malware samples in a safe, isolated environment only.]
 
-## Safety Warning
-⚠️ **IMPORTANT**: Always analyze malware in an isolated environment. Never execute suspicious code on production systems. Use appropriate safety measures including:
-- Isolated virtual machines
-- Network isolation
-- Proper handling procedures
-- Data backup
-- Safety protocols

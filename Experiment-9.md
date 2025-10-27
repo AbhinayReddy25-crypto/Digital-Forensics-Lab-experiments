@@ -3,8 +3,6 @@
 ## Aim
 To demonstrate the use of Process Explorer in identifying, analyzing, and investigating suspicious processes running on a Windows system for digital forensics purposes.
 
-## Description
-Process Explorer is an advanced system monitoring tool that provides detailed information about which handles and DLLs processes have opened or loaded. This experiment focuses on using Process Explorer to identify potentially malicious processes, analyze their behavior, and determine their impact on system security.
 
 ## Tools Used
 1. Process Explorer (Sysinternals Suite)
@@ -27,14 +25,14 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Enable "Verify Image Signatures"
    - Configure VirusTotal integration
    
-[Insert Screenshot: Place screenshot of Process Explorer initial setup]
+![](<Output Screenshot/Exp9/Screenshot 2025-10-27 144400.png>)
 
 ### 2. Basic Process Analysis
 1. Observe the two-pane display:
    - Upper pane: Process list
    - Lower pane: Handle or DLL view
 
-[Insert Screenshot: Place screenshot showing Process Explorer main interface]
+![](<Output Screenshot/Exp9/Screenshot 2025-10-27 144447.png>)
 
 2. Understanding the color coding:
    - Purple: Packed processes
@@ -42,8 +40,7 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Blue: New processes
    - Red: Terminated processes
    
-[Insert Screenshot: Place screenshot highlighting different process colors]
-
+![](<Output Screenshot/Exp9/Screenshot 2025-10-27 144814.png>)
 ### 3. Identifying Suspicious Processes
 1. Check for unusual process names or locations
 2. Look for processes with:
@@ -52,7 +49,7 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Suspicious file locations
    - High CPU or memory usage
    
-[Insert Screenshot: Place screenshot showing suspicious process identification]
+![](<Output Screenshot/Exp9/Screenshot 2025-10-27 145208.png>)
 
 ### 4. Process Properties Analysis
 1. Right-click suspicious process → Properties
@@ -63,7 +60,7 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Start time
    - User account
    
-[Insert Screenshot: Place screenshot of process properties window]
+![](<Output Screenshot/Exp9/Screenshot 2025-10-27 145244.png>)
 
 ### 5. VirusTotal Integration
 1. Enable VirusTotal submission
@@ -71,14 +68,14 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Right-click process
    - Select "Check VirusTotal"
    
-[Insert Screenshot: Place screenshot showing VirusTotal check results]
+![](<Output Screenshot/Exp9/Screenshot 2025-10-27 145418.png>)
 
 ### 6. DLL and Handle Investigation
 1. View loaded DLLs:
    - Select process
    - Lower pane: DLL view
    
-[Insert Screenshot: Place screenshot of DLL investigation]
+![](<Output Screenshot/Exp9/Screenshot 2025-10-27 145523.png>)
 
 2. Analyze handles:
    - Switch to handle view
@@ -91,14 +88,8 @@ Process Explorer is an advanced system monitoring tool that provides detailed in
    - Enable tree view
    - Identify parent-child relationships
    
-[Insert Screenshot: Place screenshot of process tree view]
 
-### 8. Advanced Analysis
-1. Stack traces
-2. Thread analysis
-3. Network connections
-[Insert Screenshot: Place screenshot of advanced analysis features]
-
+![](<Output Screenshot/Exp9/Screenshot 2025-10-27 145817.png>)
 ## Results
 The experiment successfully demonstrated:
 
@@ -117,8 +108,7 @@ The experiment successfully demonstrated:
    - Types of suspicious activities detected
    - Common characteristics of malicious processes
    - System resource impact
-![alt text](<Screenshot 2025-10-27 144400.png>)  
-![alt text](<Screenshot 2025-10-27 144447.png>) ![alt text](<Screenshot 2025-10-27 144814.png>) ![alt text](<Screenshot 2025-10-27 145208.png>) ![alt text](<Screenshot 2025-10-27 145244.png>) ![alt text](<Screenshot 2025-10-27 145418.png>) ![alt text](<Screenshot 2025-10-27 145523.png>) ![alt text](<Screenshot 2025-10-27 145650.png>) ![alt text](<Screenshot 2025-10-27 145817.png>)
+!
 ## Analysis Summary
 
 ### 1. Process Characteristics
@@ -159,5 +149,3 @@ Best Practices Identified:
 2. Baseline process knowledge
 3. Systematic investigation approach
 4. Proper documentation of findings
-
-[Note: Please add actual screenshots of your experiment execution in the designated places marked with "Insert Screenshot" tags. Also, replace all placeholder values in square brackets with actual experimental data.]
