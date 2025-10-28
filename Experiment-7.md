@@ -15,10 +15,18 @@
 * **Install Android Debug Bridge (ADB):**
     **ADB** is a command-line tool that allows communication with Android devices. Download it from the Android Developer's website and install it on your system.
     * Add **ADB** to your system's **PATH** environment variable to easily run ADB commands from the terminal or command prompt.
+
+
+![alt text](<Output Screenshot/Exp7/Screenshot 2025-10-28 114758.png>)
+
+
+
+
+
 * **Enable USB Debugging on the Android Device:**
     1.  On the Android device, go to **Settings > About Phone** and tap **Build Number** seven times to enable **Developer Options**.
     2.  Go to **Settings > Developer Options** and enable **USB Debugging**.
-
+![alt text](<Output Screenshot/Exp7/WhatsApp Image 2025-10-25 at 22.39.06_7ac867cc.jpg>)
 ---
 
 ## 🔌 Step 2: Connect the Android Device to Your Computer
@@ -52,7 +60,7 @@
 * **Start Data Extraction:**
     Once you’ve selected the data types, the app will start the extraction process.
     Data is stored in **.csv files** on the device’s storage, typically in a directory named `aflogical`.
-
+![alt text](<Output Screenshot/Exp7/WhatsApp Image 2025-10-25 at 22.49.18_32db4995.jpg>)
 ---
 
 ## 📤 Step 4: Transfer Extracted Data to Your Computer
@@ -77,7 +85,7 @@
     Carefully review the data for any relevant information. Document your findings and consider exporting the data into a report format for further analysis.
 
 ---
-
+![alt text](<Output Screenshot/Exp7/WhatsApp Image 2025-10-25 at 22.56.41_fb5d92bd.jpg>)
 ## 🧹 Step 6: Clean Up
 
 * **Uninstall AFLogical OSE:**
@@ -88,3 +96,28 @@
     ```
 * **Disconnect the Device:**
     Safely disconnect the Android device from your computer.
+    
+![alt text](<Output Screenshot/Exp7/WhatsApp Image 2025-10-25 at 23.03.41_be47eb64.jpg>)
+# Step 7: Clean Up
+----------------
+Uninstall the app after completion:  
+**Command:**  
+
+# 🔍 Observations
+----------------
+| File Name     | Contents Description                     |
+|---------------|------------------------------------------|
+| contacts.csv  | Contact list with names and numbers      |
+| sms.csv       | Text messages sent and received          |
+| mms.csv       | Multimedia message records               |
+| calllog.csv   | Incoming, outgoing, and missed calls     |
+
+# 📈 Result
+----------------
+Logical extraction was successfully performed using AFLogical OSE.  
+Extracted data was saved in .csv format and verified using spreadsheet software.
+
+# 📚 Conclusion
+----------------
+This experiment demonstrates that AFLogical OSE provides an efficient and non-invasive method to extract important user data from Android devices.  
+It is useful for forensic investigations and digital data recovery.
